@@ -23,7 +23,7 @@
 			<uniqueVersion>false</uniqueVersion>
 			<id>corp1</id>
 			<name>My Repository</name>
-			<url>http://localhost:8080/myApp</url>
+			<url>http://localhost:8085/myApp</url>
 			<layout>default</layout>
 		</repository>
 	</distributionManagement>

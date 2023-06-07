@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class MainController {
 
-    String parameter = "World Wide Web";
+    String parameter = "World";
 
     @GetMapping("/")
     public String greeting(Model model) {

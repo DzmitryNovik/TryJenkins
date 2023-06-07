@@ -39,7 +39,7 @@
 		<snapshotRepository>
 			<id>snapshots</id>
 			<name>Snapshots</name>
-			<url>http://localhost:8080/repo</url>
+			<url>http://localhost:8085/repo</url>
 		</snapshotRepository>
 	</distributionManagement>
 

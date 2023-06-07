@@ -18,7 +18,7 @@
 		<java.version>11</java.version>
 	</properties>
 
-	<distributionManagement>
+	<!--<distributionManagement>
 		<repository>
 			<uniqueVersion>false</uniqueVersion>
 			<id>corp1</id>
@@ -26,7 +26,7 @@
 			<url>http://localhost:8085/myApp</url>
 			<layout>default</layout>
 		</repository>
-	</distributionManagement>
+	</distributionManagement>-->
 
 	<dependencies>
 		<dependency>
@@ -61,6 +61,18 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+
+			<plugin>
+				 <groupId>org.apache.tomcat.maven</groupId>
+				 <artifactId>tomcat7-maven-plugin</artifactId>
+				 <version>2.2</version>
+				 <configuration>
+				 	<path>/myWebApp</path>
+				 	<server>Catalina</server>
+				 	<url>http://localhost:8085/manager/text</url>
+				 	<update>true</update>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>

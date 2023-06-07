@@ -4,12 +4,12 @@
                   http://maven.apache.org/xsd/settings-1.0.0.xsd">
     <servers>
         <server>
-            <id>repo</id>
+            <id>Catalina</id>
             <username>admin</username>
             <password>admin_password</password>
         </server>
         <server>
-            <id>releases</id>
+            <id>Catalina</id>
             <username>admin</username>
             <password>admin_password</password>
         </server>
